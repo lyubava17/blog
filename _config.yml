@@ -2,10 +2,10 @@ title: Тревожный сырок # name of the site
 author: 
 email: 
 url: https://lyubava17.github.io/blog # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+baseurl: "/blog" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
 
-permalink: /:slug.html
+permalink: /:year/:month/:day/:title/
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
